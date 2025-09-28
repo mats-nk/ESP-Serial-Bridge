@@ -28,23 +28,21 @@ Used Libraries: (must be installed in the arduino IDE):
 
 https://github.com/espressif/arduino-esp32
 
-
 ===============================================================
 
-In some cases the memorylayout is to small for this scetch.
-If you face this problem you can either disable Bluetooth by removing
-#define BLUETOOTH
-in config.h 
-or change the partition size as described here:
+In some cases the memory layout is to small for this sketch.
+
+If you face this problem you can either disable Bluetooth by removing `#define BLUETOOTH` in `config.h` or change the partition size as described here:
+
 https://desire.giesecke.tk/index.php/2018/04/20/change-partition-size-arduino-ide/
 
 Arduino hardware configuration:
 
+![Settings](images/Settings.jpg)
+
 https://github.com/AlphaLima/ESP32-Serial-Bridge/blob/master/Settings.jpg
 
-===============================================================
-
-example usecases:
+## Example usecases:
 
 https://www.youtube.com/watch?v=K2Hia06IMtk
 
@@ -65,8 +63,4 @@ NOTE: The PIN assignment has changed and may not look straigt forward (other PIN
 
 I recomend to start your project with a Node32s or compatible evaluation board. For a TTL to RS232 level conversion search google for "TTL RS3232 Converter"
 
-
-
 https://tech.scargill.net/wp-content/uploads/2017/05/ESP326.jpg
-
-
