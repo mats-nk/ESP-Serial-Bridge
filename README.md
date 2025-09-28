@@ -50,6 +50,7 @@ https://www.youtube.com/watch?v=GoSxlQvuAhg
 
 # Hardware
 Here is the wiring diagram:
+
 <div style='float: center'>
   <img style='width: 600px' src="Images/ESP32-SerialBridge.jpg"></img>
 </div>
