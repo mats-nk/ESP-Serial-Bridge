@@ -36,13 +36,13 @@ If you face this problem you can either disable Bluetooth by removing `#define B
 
 https://desire.giesecke.tk/index.php/2018/04/20/change-partition-size-arduino-ide/
 
-Arduino hardware configuration:
+## Arduino platform configuration:
 
 <div style='float: center'>
   <img style='width: 600px' src="Images/Settings.jpg"></img>
 </div>
 
-## Example usecases:
+## Example use cases:
 
 https://www.youtube.com/watch?v=K2Hia06IMtk
 
@@ -55,15 +55,17 @@ Here is the wiring diagram:
 </div>
 
 ## Wiring
-```COM0 Rx <-> GPIO21                                                                               
-COM0 Tx <-> GPIO01                                                                                 
-COM1 Rx <-> GPIO16                                                                               
-COM1 Tx <-> GPIO17                                                                              
-COM2 Rx <-> GPIO15                                                                               
+```COM0 Rx <-> GPIO21
+COM0 Tx <-> GPIO01
+COM1 Rx <-> GPIO16
+COM1 Tx <-> GPIO17
+COM2 Rx <-> GPIO15
 COM2 Tx <-> GPIO04```
 
 **Note:** The PIN assignment has changed and may not look straigt forward (other PINs are marke as Rx/Tx), but this assignment allows to flash via USB also with hooked MAX3232 serial drivers.
 
 I recomend to start your project with a Node32s or compatible evaluation board. For a TTL to RS232 level conversion search google for "TTL RS3232 Converter"
 
-https://tech.scargill.net/wp-content/uploads/2017/05/ESP326.jpg
+<div style='float: center'>
+  <img style='width: 600px' src="Images/ESP326.jpg"></img>
+</div>
