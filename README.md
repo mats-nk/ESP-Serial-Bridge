@@ -58,8 +58,10 @@ Here is the wiring diagram:
 ```
 COM0 Rx <-> GPIO21
 COM0 Tx <-> GPIO01
+
 COM1 Rx <-> GPIO16
 COM1 Tx <-> GPIO17
+
 COM2 Rx <-> GPIO15
 COM2 Tx <-> GPIO04
 ```
